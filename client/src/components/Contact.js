@@ -33,7 +33,7 @@ class contact extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App contact-form">
         <form
           id="contact-form"
           onSubmit={this.handleSubmit.bind(this)}
@@ -43,17 +43,17 @@ class contact extends React.Component {
             <label htmlFor="name">Name</label>
             <input
               type="text"
-              className="form-control"
+              className="form-control-sm"
               id="name"
               value={this.state.name}
               onChange={this.onNameChange.bind(this)}
             />
           </div>
           <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Email address</label>
+            <label htmlFor="exampleInputEmail">Email address</label>
             <input
               type="email"
-              className="form-control"
+              className="form-control-sm"
               id="email"
               aria-describedby="emailHelp"
               value={this.state.email}
@@ -70,7 +70,7 @@ class contact extends React.Component {
               onChange={this.onMessageChange.bind(this)}
             />
           </div>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-primary button">
             Submit
           </button>
         </form>

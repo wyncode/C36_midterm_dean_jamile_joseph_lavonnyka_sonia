@@ -2,13 +2,14 @@ import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import contact from './components/Contact';
 import Home from './components/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <Fragment>
       <Router>
         <div className="Home">
-          <nav class="locations">
+          <nav className="locations">
             <ul>
               <li>
                 <Link to="/">--------</Link>
@@ -35,5 +36,5 @@ function App() {
       </Router>
     </Fragment>
   );
-  }
+}
 export default App;
