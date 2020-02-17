@@ -1,8 +1,12 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import './App.css';
+import "./"
+import "./components/MyEats"
+import Resturant from './components/MyEats';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import contact from './components/Contact';
 import Home from './components/Home';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Favorites from './components/Favorites';
 
 function App() {
@@ -41,4 +45,6 @@ function App() {
     </Fragment>
   );
 }
-export default App;
+
+
+ export default App;
