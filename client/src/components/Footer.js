@@ -1,9 +1,9 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 
 const Footer= () => {
     return (
-      <div>
-        <h1>This is the Footer</h1>
+      <div id="information">
+        <h4 class="footer"></h4>
       </div>
     );
   }

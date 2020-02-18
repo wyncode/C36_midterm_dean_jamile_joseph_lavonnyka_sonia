@@ -1,6 +1,8 @@
 import React from 'react';
 import Home from './components/Home'
+import Header from './components/Header'
 import Footer from './components/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 class App extends React.Component {
@@ -14,20 +16,10 @@ class App extends React.Component {
 
    render() {
     return (
-      <Home></Home>
-    );
-  }
-
-
-  render() {
-    return (
-      <Header></Header>
-    );
-  }
-
-  render() {
-    return (
-      <Footer></Footer>
+      <>
+        <Header/>
+        <Footer/> 
+      </>
     );
   }
 }
