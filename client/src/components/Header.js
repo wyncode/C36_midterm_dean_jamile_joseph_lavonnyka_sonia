@@ -1,26 +1,22 @@
 import React from "react"
 
 
+
 function Header() {
   return(
 
-    <>
+  <div>
     <div id="header-container">
-      <div id="logo">
-        <a className="logo-tag" href="home">WynEats</a>
-      </div>
-      <div id="menu"> 
+        <span className="menu"><a className="mainNav" href="home">WynEats</a></span>  
         <span className="menu-buttons"><a href="myeats">MyEats</a></span>
-        <span className="menu-buttons"><a href="menu-buttons">About</a></span>
-        <span className="menu-buttons"><a  href="contact">Contacts</a></span>
-      </div>
+        <span className="menu-buttons"><a href="about">About</a></span>
+        <span className="menu-buttons"><a href="contacts">Contacts</a></span>
     </div>
-    <button className="eat"type="active">Let's Eat</button>
-  </>
-
-    
+    <button className="eat" type="active">Let's Eat</button>
+   </div>
+      
   )
-}
+} 
 export default Header;
 
 

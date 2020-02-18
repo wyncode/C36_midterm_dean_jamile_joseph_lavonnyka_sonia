@@ -1,23 +1,23 @@
-// import React, {Fragment} from 'react';
-// import BCKG from './wynwood.jpeg'
+import React, {Fragment} from 'react';
+import BCKG from './wynwood.jpeg'
 
 
 
-// function Home(){
+function Home(){
 
 
-//  return(
-//         <div>
+ return(
+        <div>
 
-//           <img
-//             className="mainpage"
-//             src={BCKG}
-//             alt="Aerial View of Wynwood"
-//           />
-//         </div>
+          <img
+            className="mainpage"
+            src={BCKG}
+            alt="Aerial View of Wynwood"
+          />
+        </div>
   
-//  )
-// }
-// export default Home
+ )
+}
+export default Home
 
 
